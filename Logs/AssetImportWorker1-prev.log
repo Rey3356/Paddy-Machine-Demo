@@ -1,0 +1,1941 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity Projects/Paddy Machine Demo
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50759
+Successfully changed project path to: D:/Unity Projects/Paddy Machine Demo
+D:/Unity Projects/Paddy Machine Demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18904] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2587537046 [EditorId] 2587537046 [Version] 1048832 [Id] WindowsEditor(7,ARVR-PC03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18904] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2587537046 [EditorId] 2587537046 [Version] 1048832 [Id] WindowsEditor(7,ARVR-PC03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 57.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Paddy Machine Demo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T1000 8GB (ID=0x1ff0)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   31.0.15.1737
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.003618 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 170 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (553ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (65ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (210ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (47ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4705 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5161.
+Memory consumption went from 189.0 MB to 188.3 MB.
+Total: 2.560900 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.018600 ms  DeleteObjects: 0.201800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9160.695912 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2f2b655bf21bdea72856b1c39a4a32') in 0.023746 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5827 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.5 MB). Loaded Objects now: 6394.
+Memory consumption went from 220.4 MB to 218.9 MB.
+Total: 3.056700 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.138800 ms  DeleteObjects: 0.455300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1535.090834 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66b85e6153ed9eb68fee51450bf5131c') in 0.140394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Core/Attributes/EnumFlagsAttribute.cs
+  artifactKey: Guid(8406c3890cd44f8bb71fdf288e018fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/EnumFlagsAttribute.cs using Guid(8406c3890cd44f8bb71fdf288e018fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '496246313202be0a47797098e6ec151d') in 0.010674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MRTK/Core/Attributes/Vector3RangeAttribute.cs
+  artifactKey: Guid(cbd8fa9213b04d238d65cc7be8d4b032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/Vector3RangeAttribute.cs using Guid(cbd8fa9213b04d238d65cc7be8d4b032) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '733c8466e4d3f4ee29218688b7a73c2b') in 0.112714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93fbb8a6baf7ffe826caeb3f513ffd52') in 0.026637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Core/Extensions/AssemblyExtensions.cs
+  artifactKey: Guid(ca0b36fc217123c46a2fa92b0e83f619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/AssemblyExtensions.cs using Guid(ca0b36fc217123c46a2fa92b0e83f619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ab6e526383df96c53218b4cea644e32') in 0.007555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Extensions/CameraExtensions.cs
+  artifactKey: Guid(a82cef65e97445fe8ce8d90b15644cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/CameraExtensions.cs using Guid(a82cef65e97445fe8ce8d90b15644cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b966010b8f2a6062f0a58f2619071c3') in 0.007001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Attributes/HelpAttribute.cs
+  artifactKey: Guid(2f5319af93ddc2143b74d7d7f0b08830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/HelpAttribute.cs using Guid(2f5319af93ddc2143b74d7d7f0b08830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bebfd3d399021e01a4975cc2870191c1') in 0.006695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Extensions/CollectionsExtensions.cs
+  artifactKey: Guid(a2be8781cdb84a30811fcdbe0a3e0320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/CollectionsExtensions.cs using Guid(a2be8781cdb84a30811fcdbe0a3e0320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fad394ba02ae021077af5b2117950b7') in 0.011203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Inspectors/AssemblyInfo.cs
+  artifactKey: Guid(181c2cb3bf86d6247b1dec6926a0fe02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/AssemblyInfo.cs using Guid(181c2cb3bf86d6247b1dec6926a0fe02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29adf0b3dca56cf745c17a3675a760cf') in 0.006734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/StandardAssets/License.txt
+  artifactKey: Guid(71bd273a5d69263419ca8e4c5d03ffed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/License.txt using Guid(71bd273a5d69263419ca8e4c5d03ffed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd8082f40aa0b7982d87dc7ef4a3016d') in 0.007145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/StandardAssets/README.md
+  artifactKey: Guid(7628a2316d35e934e886aa2d228c8543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/README.md using Guid(7628a2316d35e934e886aa2d228c8543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43317b9cb53dadfaeb72f0b7f395c136') in 0.008167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02d11b4f0dab25fd9301a6c4bb5b2265') in 0.012897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/Core/Extensions/VectorExtensions.cs
+  artifactKey: Guid(fdc018100e504884bc9c70e9d1ccff08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/VectorExtensions.cs using Guid(fdc018100e504884bc9c70e9d1ccff08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7090158b8eb91241a93781de332eb371') in 0.007070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Extensions/BoundsExtensions.cs
+  artifactKey: Guid(8c8d13b5343245b79380f49b1f4359c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/BoundsExtensions.cs using Guid(8c8d13b5343245b79380f49b1f4359c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76bb2b3d94012bed53a7b6f364dd04a0') in 0.006993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Extensions/EnumerableExtensions.cs
+  artifactKey: Guid(fd03ae5f431b447ba64dbfba6b4b61f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/EnumerableExtensions.cs using Guid(fd03ae5f431b447ba64dbfba6b4b61f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe306056b952412b3b5dae7eb8146a86') in 0.007188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Providers/Version.txt
+  artifactKey: Guid(fff86efa755568f4fb802957dbeeff0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/Version.txt using Guid(fff86efa755568f4fb802957dbeeff0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd347ab45867d4422e351dd1c4c494791') in 0.005528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Attributes/ExperimentalAttribute.cs
+  artifactKey: Guid(21560d9bd9bdf4c41a9ad9c366b81b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/ExperimentalAttribute.cs using Guid(21560d9bd9bdf4c41a9ad9c366b81b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b746821c6d562eb2d60160f02d68ab6') in 0.007983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Extensions/MathfExtensions.cs
+  artifactKey: Guid(dcbd7251a0c44e1d9a1a5e57457549d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/MathfExtensions.cs using Guid(dcbd7251a0c44e1d9a1a5e57457549d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77aadec09abd662766ae7dd8e4114d6e') in 0.007028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Services/MRTK.Services.sentinel
+  artifactKey: Guid(e4a2c4cac1889464cb3f300e513d9df8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/MRTK.Services.sentinel using Guid(e4a2c4cac1889464cb3f300e513d9df8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3666b2adf72c34a39025b17e745e6f94') in 0.007785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MRTK/Core/Extensions/SystemNumericsExtensions.cs
+  artifactKey: Guid(f9f9eb9aede721d4f9092acc4e938be5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/SystemNumericsExtensions.cs using Guid(f9f9eb9aede721d4f9092acc4e938be5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9814288876807355b1e9d2cd1aa72ab') in 0.007227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset
+  artifactKey: Guid(acb72839e6b781f44900a6e9882170e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset using Guid(acb72839e6b781f44900a6e9882170e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a71a442c993527b9869fb905e23a906d') in 0.012132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Extensions/GameObjectExtensions.cs
+  artifactKey: Guid(e51dffcf6ded45a48ba75d63d5bcb520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/GameObjectExtensions.cs using Guid(e51dffcf6ded45a48ba75d63d5bcb520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4395ec16fbe487581355d3f49ca53e10') in 0.006966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Attributes/ScenePickAttribute.cs
+  artifactKey: Guid(aada00f885183904f84f3e17ea5336a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/ScenePickAttribute.cs using Guid(aada00f885183904f84f3e17ea5336a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b460a7a32dbbaa73f1eed286ffa8d21') in 0.006769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Definitions/MixedRealityToolkitConfigurationProfile.cs
+  artifactKey: Guid(7612acbc1a4a4ed0afa5f4ccbe42bee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/MixedRealityToolkitConfigurationProfile.cs using Guid(7612acbc1a4a4ed0afa5f4ccbe42bee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91e87fa6e090b88470c30caf22e2be63') in 0.007692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Extensions/ComparerExtensions.cs
+  artifactKey: Guid(b4a220e9226b49efb855ca01a7f69ff4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/ComparerExtensions.cs using Guid(b4a220e9226b49efb855ca01a7f69ff4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe41ea8a66754478e03896269ce42225') in 0.011625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be2c5690392e198f21149aa8561307b8') in 0.010035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MRTK/Core/Attributes/PhysicsLayerAttribute.cs
+  artifactKey: Guid(a46f813550c3448383a069c6988d64da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/PhysicsLayerAttribute.cs using Guid(a46f813550c3448383a069c6988d64da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5af855008629d9ff4297db6b70717bb0') in 0.006338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MRTK/Core/License.txt
+  artifactKey: Guid(f49e1cf079c34eed867c10df6bb25c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/License.txt using Guid(f49e1cf079c34eed867c10df6bb25c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4429e561d72556e8d151b5481f506f2b') in 0.005353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Core/Attributes/ReadOnlyAttribute.cs
+  artifactKey: Guid(700a45d7f9cad034aa2c70acbe010829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/ReadOnlyAttribute.cs using Guid(700a45d7f9cad034aa2c70acbe010829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a441d54bfc7e4a87da045678f9fc7115') in 0.008725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fbe8148f9d3aa69ae1f869d0ab79b8a') in 0.016258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Core/MRTK.Core.sentinel
+  artifactKey: Guid(05ba0ec971b0d5648a404e6ac3ae4cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/MRTK.Core.sentinel using Guid(05ba0ec971b0d5648a404e6ac3ae4cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d1c06f624da53c266fabf5f0f0a7d51') in 0.009339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Core/Extensions/UnityObjectExtensions.cs
+  artifactKey: Guid(0524b94852744b79866e72b300fc98db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/UnityObjectExtensions.cs using Guid(0524b94852744b79866e72b300fc98db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e79e0ee244b4860a9d550fbcb233469') in 0.009610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK/Core/Extensions/ProcessExtensions.cs
+  artifactKey: Guid(74b749c932e241b3bde767959c28da46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/ProcessExtensions.cs using Guid(74b749c932e241b3bde767959c28da46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9d2cbd638b533e46698dcd404e5af1a') in 0.009812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MRTK/SDK/AssemblyInfo.cs
+  artifactKey: Guid(23d3eb04a6059294294033f0a5b9ded8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/AssemblyInfo.cs using Guid(23d3eb04a6059294294033f0a5b9ded8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3880185619ed2dd69f4cce7449187fc7') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Attributes/MixedRealityControllerAttribute.cs
+  artifactKey: Guid(68bd9743c3da6de4fb0640d1b9db8f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/MixedRealityControllerAttribute.cs using Guid(68bd9743c3da6de4fb0640d1b9db8f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93b715384982e33a4388b477ce8cd5fa') in 0.007091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Definitions/MixedRealityServiceConfiguration.cs
+  artifactKey: Guid(a0d7ee77470e4f228ba6eb25fd883db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/MixedRealityServiceConfiguration.cs using Guid(a0d7ee77470e4f228ba6eb25fd883db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07206d4c06cf40949d639d57fad0e4e7') in 0.015076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Core/Attributes/ImplementsAttribute.cs
+  artifactKey: Guid(8fcf9f0ee6ff42d98ad11a39aa40693f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/ImplementsAttribute.cs using Guid(8fcf9f0ee6ff42d98ad11a39aa40693f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eb3ce7d0b0ede6569c5f3be05f12e14') in 0.009730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/Core/Definitions/MixedRealityRegisteredServiceProvidersProfile.cs
+  artifactKey: Guid(eebbca41bb0b40d298ef201735d08616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/MixedRealityRegisteredServiceProvidersProfile.cs using Guid(eebbca41bb0b40d298ef201735d08616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92958b08658e2b4e691be21331b6900f') in 0.009242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/WhereToStart.txt
+  artifactKey: Guid(45fb7d0fbb9988d48847c25a7dd338d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/WhereToStart.txt using Guid(45fb7d0fbb9988d48847c25a7dd338d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf98114468f611aaf20973491cd10ed8') in 0.007090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MRTK/Core/Attributes/PrefabAttribute.cs
+  artifactKey: Guid(8f0704a2ddbf46c7ac01b75061f8da6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/PrefabAttribute.cs using Guid(8f0704a2ddbf46c7ac01b75061f8da6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e98db7537d07916f6df2558110e94726') in 0.007114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MRTK/Core/Extensions/FloatExtensions.cs
+  artifactKey: Guid(9735ed9f51f645b5be095dc6bdb70312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/FloatExtensions.cs using Guid(9735ed9f51f645b5be095dc6bdb70312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18f6477038eceda723da6596430bf427') in 0.007513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/AssemblyInfo.cs
+  artifactKey: Guid(26cee117733e84e409a3020951c8cfb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/AssemblyInfo.cs using Guid(26cee117733e84e409a3020951c8cfb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ff9e0533b0a16c48ffede13b6808198') in 0.008468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Extensions/LayerExtensions.cs
+  artifactKey: Guid(fd6c695fdece4cc58512d654d8aade4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/LayerExtensions.cs using Guid(fd6c695fdece4cc58512d654d8aade4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eee54387737468835bdc6d704f696cda') in 0.009972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Extensions/StringBuilderExtensions.cs
+  artifactKey: Guid(00d64e9c83401b94eb4def98c5bada6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/StringBuilderExtensions.cs using Guid(00d64e9c83401b94eb4def98c5bada6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b3e16f0fc36f3f90963e9fb01ac6ab6') in 0.007888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Attributes/MixedRealityServiceInspectorAttribute.cs
+  artifactKey: Guid(e159fc0613d5db9479be3c2d92f449b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/MixedRealityServiceInspectorAttribute.cs using Guid(e159fc0613d5db9479be3c2d92f449b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b9dd9cd62f977fbc1b98d0c9a6f9178') in 0.008088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Attributes/DocLinkAttribute.cs
+  artifactKey: Guid(d68183ede17f6b74ca38173e4b40aff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/DocLinkAttribute.cs using Guid(d68183ede17f6b74ca38173e4b40aff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3ef80dfbf7a7e3087277bdaf4be2eec') in 0.009723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MRTK/Core/EventDatum/PlacementEventData.cs
+  artifactKey: Guid(b5143cedf6204703871f3962938ba8b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/EventDatum/PlacementEventData.cs using Guid(b5143cedf6204703871f3962938ba8b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d7131435402448d1c53d418814f7979') in 0.008592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Core/Extensions/ComponentExtensions.cs
+  artifactKey: Guid(f211201cc93f4cd4b5eff7d765a3a617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Extensions/ComponentExtensions.cs using Guid(f211201cc93f4cd4b5eff7d765a3a617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bab113d86ecca407b19efdfa042faa0') in 0.008155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Core/Attributes/SystemTypeAttribute.cs
+  artifactKey: Guid(d78dba64176b4c168d5a5f3ff8865b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/SystemTypeAttribute.cs using Guid(d78dba64176b4c168d5a5f3ff8865b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beff59771ab71beb5f35fbbe5a2ae374') in 0.009073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Attributes/TagPropertyAttribute.cs
+  artifactKey: Guid(27713c34a4c46f54da03155ceb0bdd6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/TagPropertyAttribute.cs using Guid(27713c34a4c46f54da03155ceb0bdd6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9deec647a58e24efb3701398c24727b') in 0.008969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/SDK/MRTK.SDK.sentinel
+  artifactKey: Guid(864352254c16b15409725d9eb8efcbda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/MRTK.SDK.sentinel using Guid(864352254c16b15409725d9eb8efcbda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '065116eaa566ed69dd7958db0168f7ee') in 0.008072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Attributes/ExtendsAttribute.cs
+  artifactKey: Guid(e78caa572e154a2b8532d8cb9f0d339c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/ExtendsAttribute.cs using Guid(e78caa572e154a2b8532d8cb9f0d339c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc1c6371aa53507edffcd6cbcf696186') in 0.008362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Core/Attributes/MixedRealityDataProviderAttribute.cs
+  artifactKey: Guid(f6afe3f00c06b8242a915125257240fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Attributes/MixedRealityDataProviderAttribute.cs using Guid(f6afe3f00c06b8242a915125257240fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '829c3b04ead3c9141aef5d073d026308') in 0.008222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Providers/MRTK.Providers.sentinel
+  artifactKey: Guid(efc47659760747d4d80477aa049ee71e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/MRTK.Providers.sentinel using Guid(efc47659760747d4d80477aa049ee71e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '341cff5df7831efe68614982da9934f7') in 0.007786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.030295 seconds.
+  path: Assets/MRTK/Core/Inspectors/ClippingPlaneInspector.cs
+  artifactKey: Guid(ea66b1225d554b10a1c1b6ccb169cca9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/ClippingPlaneInspector.cs using Guid(ea66b1225d554b10a1c1b6ccb169cca9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de347c36989d09b82d34396f8137cf01') in 0.010436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/README.md
+  artifactKey: Guid(031d37121f89e2e479ad90ee33c812de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Features/README.md using Guid(031d37121f89e2e479ad90ee33c812de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4477729ad4b26c13aebbb9974395ae4d') in 0.008195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Core/Inspectors/MixedRealityStandardShaderGUI.cs
+  artifactKey: Guid(987d0f891c554d668f53217451de169b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/MixedRealityStandardShaderGUI.cs using Guid(987d0f891c554d668f53217451de169b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1359955ea0277626955a9e321c950ac') in 0.009165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MRTK/Providers/OpenVR/GenericOpenVRController.cs
+  artifactKey: Guid(ebfc621a25b74ee491ce779d8f49a6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/OpenVR/GenericOpenVRController.cs using Guid(ebfc621a25b74ee491ce779d8f49a6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c415eab3701a915412c8138153af5d4f') in 0.009085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityControllerMappingProfile.asset
+  artifactKey: Guid(39ded1fd0711a0c448413d0e1ec4f7f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityControllerMappingProfile.asset using Guid(39ded1fd0711a0c448413d0e1ec4f7f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea49461d8b59f80fbeb9e741f009336c') in 0.106495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Providers/UnityAR/AssemblyInfo.cs
+  artifactKey: Guid(579d8dea83d38c249b057c8be9556e44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/UnityAR/AssemblyInfo.cs using Guid(579d8dea83d38c249b057c8be9556e44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20dc606131ed61bcc81253fa74f0f659') in 0.008908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/Providers/LeapMotion/MRTK.LeapMotion.asmdef
+  artifactKey: Guid(3adca5ba4817b4d41b28316874ed7809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/LeapMotion/MRTK.LeapMotion.asmdef using Guid(3adca5ba4817b4d41b28316874ed7809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1435641f2dbdcd95ddef9c83b96c6af') in 0.011308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/MRTK/Core/Utilities/EdgeUtilities.cs
+  artifactKey: Guid(18c146ea6ea840e69891bf6c25860e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/EdgeUtilities.cs using Guid(18c146ea6ea840e69891bf6c25860e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4bf2e409143768b100466de93814db8') in 0.008730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Core/Services/BaseCoreSystem.cs
+  artifactKey: Guid(af340818a59327247b401b39741c6eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Services/BaseCoreSystem.cs using Guid(af340818a59327247b401b39741c6eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fc9b1687847be982ad18b5fc9e96fb0') in 0.008938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityCameraProfile.asset
+  artifactKey: Guid(8089ccfdd4494cd38f676f9fc1f46a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityCameraProfile.asset using Guid(8089ccfdd4494cd38f676f9fc1f46a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4974675ef3971935ac1e1a2d68d6f38f') in 0.015692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Providers/XRSDK/LoaderHelpers.cs
+  artifactKey: Guid(1d5accc365a0a584ab4330f2ce52d821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/XRSDK/LoaderHelpers.cs using Guid(1d5accc365a0a584ab4330f2ce52d821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29552db658d388017a88ead3c16d8b86') in 0.009291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Core/Utilities/XRSubsystemHelpers.cs
+  artifactKey: Guid(98b7e5fbc3c5d9d4cb5811501c141f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/XRSubsystemHelpers.cs using Guid(98b7e5fbc3c5d9d4cb5811501c141f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1cd2ab2ea2ffd6728dfbb672d2b467b') in 0.008219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Utilities/MixedRealityPlayspace.cs
+  artifactKey: Guid(3b71d7f51382ebe4c8bb7e06d10b0cfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/MixedRealityPlayspace.cs using Guid(3b71d7f51382ebe4c8bb7e06d10b0cfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8b4c0a4f8d6e21d12e0acff40af2b9c') in 0.009025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/Core/Inspectors/MixedRealityToolkitInspector.cs
+  artifactKey: Guid(ba2e1a978ccd4cba83b89f5ff458e977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/MixedRealityToolkitInspector.cs using Guid(ba2e1a978ccd4cba83b89f5ff458e977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a30f6b5c092b4472568ea235f8d1f9f1') in 0.009218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Core/Services/MixedRealityToolkit.cs
+  artifactKey: Guid(83d9acc7968244a8886f3af591305bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Services/MixedRealityToolkit.cs using Guid(83d9acc7968244a8886f3af591305bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8e5431b6dc4d8a1b9413b61f8248ed6') in 0.009621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/SDK/Editor/MRTK.SDK.Editor.asmdef
+  artifactKey: Guid(829e63f67f814aae828de5ab51326cf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Editor/MRTK.SDK.Editor.asmdef using Guid(829e63f67f814aae828de5ab51326cf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f42633d8399f00228cd15d75a371e8cd') in 0.008580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK/Providers/LeapMotion/LeapMotionDeviceManagerProfile.cs
+  artifactKey: Guid(79cc5398fde98374abf75c49e7cb4740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/LeapMotion/LeapMotionDeviceManagerProfile.cs using Guid(79cc5398fde98374abf75c49e7cb4740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75d058d08480fd5e789fd8c97587502e') in 0.009269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Providers/OpenVR/OpenVRDeviceManager.cs
+  artifactKey: Guid(df38a328c6ca4be4a2bd2dcc60022baf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/OpenVR/OpenVRDeviceManager.cs using Guid(df38a328c6ca4be4a2bd2dcc60022baf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9784e3b690b3fc5ee8c9e497f1a6e26b') in 0.009057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Providers/XRSDK/XRSDKSubsystemHelpers.cs
+  artifactKey: Guid(bcbbcd07fc4266742ad6b37a6a857785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/XRSDK/XRSDKSubsystemHelpers.cs using Guid(bcbbcd07fc4266742ad6b37a6a857785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8afdbcc338f78041553b66ab0d28315f') in 0.008255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Providers/OpenVR/OculusTouchController.cs
+  artifactKey: Guid(35cb59ef2cd745d5beaee7e04b9349f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/OpenVR/OculusTouchController.cs using Guid(35cb59ef2cd745d5beaee7e04b9349f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c17a27bb5211240b5c36ac08506faaee') in 0.008924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MRTK/SDK/Editor/AssemblyInfo.cs
+  artifactKey: Guid(95833b89f45dac647947ebc7b634765c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Editor/AssemblyInfo.cs using Guid(95833b89f45dac647947ebc7b634765c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00ba5208d3abbeafb32e7d4f793dfb46') in 0.008223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Utilities/PlatformUtility.cs
+  artifactKey: Guid(a77dca6c5c89447ca4330f72438bc150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/PlatformUtility.cs using Guid(a77dca6c5c89447ca4330f72438bc150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f564d8655c5b8904bcd52ca78a5ddb9d') in 0.008669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Inspectors/ClippingPrimitiveInspector.cs
+  artifactKey: Guid(00b3a9914942baf42b886607218f3ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/ClippingPrimitiveInspector.cs using Guid(00b3a9914942baf42b886607218f3ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9320710789efc27476bc43cfe4d0cc1') in 0.008915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Providers/Windows/WindowsDictationInputProvider.cs
+  artifactKey: Guid(77eb2a06f1b96c246b540538a642cbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/Windows/WindowsDictationInputProvider.cs using Guid(77eb2a06f1b96c246b540538a642cbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad7cc5139da559af8b474041af647f7b') in 0.007479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Providers/XRSDK/XRSDKBoundarySystem.cs
+  artifactKey: Guid(5d547cc84f22b04428c9b3d1970ebea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/XRSDK/XRSDKBoundarySystem.cs using Guid(5d547cc84f22b04428c9b3d1970ebea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6ce95a4556f645e083697fc47dba609') in 0.007615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Inspectors/ClippingSphereInspector.cs
+  artifactKey: Guid(3ceb6d1e47c68c04f85ff5b33426a013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/ClippingSphereInspector.cs using Guid(3ceb6d1e47c68c04f85ff5b33426a013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb53cb92500c314854b1371ec8574e5b') in 0.009953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Providers/GenericPointer.cs
+  artifactKey: Guid(471b4829e4534ed28ca0379e2c013f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/GenericPointer.cs using Guid(471b4829e4534ed28ca0379e2c013f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cdf1fc6151a93b4cbe1a44901f0bde1') in 0.006816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Providers/UnityAR/UnityARCameraSettings.cs
+  artifactKey: Guid(dac804d8adb3cdc4d856b5b6a7d5484a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/UnityAR/UnityARCameraSettings.cs using Guid(dac804d8adb3cdc4d856b5b6a7d5484a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '904dd10ac8cbaefec8872ad3e311e639') in 0.006141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Providers/Windows/WindowsSpeechInputProvider.cs
+  artifactKey: Guid(9693f50976a47744ea222e74422f4075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/Windows/WindowsSpeechInputProvider.cs using Guid(9693f50976a47744ea222e74422f4075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99f26f56a941a2a9826c8df7361e5c0c') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Providers/LeapMotion/LeapMotionArticulatedHand.cs
+  artifactKey: Guid(b2a1be5eb5007cb4d9b7afbf1705ed4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/LeapMotion/LeapMotionArticulatedHand.cs using Guid(b2a1be5eb5007cb4d9b7afbf1705ed4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82a23a1dd78b003280d82b0321d42310') in 0.009636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Utilities/WindowsApiChecker.cs
+  artifactKey: Guid(780724c394be4e3bbffda739b96fe89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/WindowsApiChecker.cs using Guid(780724c394be4e3bbffda739b96fe89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed26e938379ce26a664a8e8b57fa520b') in 0.007151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Providers/OpenVR/HPMotionController.cs
+  artifactKey: Guid(a062c3b1f6df7004990548c882da51ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/OpenVR/HPMotionController.cs using Guid(a062c3b1f6df7004990548c882da51ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd663283b5d5223cf7a803bc5daba405') in 0.006443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/Core/Providers/BaseSpatialMeshObserver.cs
+  artifactKey: Guid(cb283f9fcabe1ff46a767f251c93f24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/BaseSpatialMeshObserver.cs using Guid(cb283f9fcabe1ff46a767f251c93f24d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b83867690aa544dace6835b9740d280') in 0.008249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Providers/XRSDK/AssemblyInfo.cs
+  artifactKey: Guid(17498a05930934d4aa73caa3089c9a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/XRSDK/AssemblyInfo.cs using Guid(17498a05930934d4aa73caa3089c9a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cdf3df2c791ac58120bcd35e79a83c6') in 0.006070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Core/Providers/BaseCameraSettingsProvider.cs
+  artifactKey: Guid(7436e360aeb8e504dacbb3672921d97d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/BaseCameraSettingsProvider.cs using Guid(7436e360aeb8e504dacbb3672921d97d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d4e49963218ebb67f460cd7c18b7d15') in 0.008174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Providers/UnityAR/README.md
+  artifactKey: Guid(a999e8abc8fe6c84ea10439ef9d012aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/UnityAR/README.md using Guid(a999e8abc8fe6c84ea10439ef9d012aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b3088d435e95ec939f2685bbedf2229') in 0.006364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Core/Inspectors/ProximityLightInspector.cs
+  artifactKey: Guid(02b7be6ee6d01bd4ea129e879a281d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/ProximityLightInspector.cs using Guid(02b7be6ee6d01bd4ea129e879a281d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ba83cc85a086340a0f4a829e5dd03d9') in 0.015575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityBoundaryVisualizationProfile.asset
+  artifactKey: Guid(6d28cce596b44bd3897ca86f8b24e076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityBoundaryVisualizationProfile.asset using Guid(6d28cce596b44bd3897ca86f8b24e076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86f88a15c1c3aff5c870c584444e4ddc') in 0.010820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/Core/Utilities/StabilizedRay.cs
+  artifactKey: Guid(e966538be6393884d857b4045424be13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/StabilizedRay.cs using Guid(e966538be6393884d857b4045424be13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '456c51f963d71d10edd12f6f15ef08f5') in 0.007047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Providers/OpenVR/AssemblyInfo.cs
+  artifactKey: Guid(e4cb9d75bf8e0844994475f799bfe686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/OpenVR/AssemblyInfo.cs using Guid(e4cb9d75bf8e0844994475f799bfe686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '259e0b3db6e01dd56570476d23284478') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MRTK/Providers/Windows/AssemblyInfo.cs
+  artifactKey: Guid(fe868503419a622468d5d4c077390ec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/Windows/AssemblyInfo.cs using Guid(fe868503419a622468d5d4c077390ec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dae52a90b6ee8c7833bc085473bfab14') in 0.006563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Utilities/CameraFOVChecker.cs
+  artifactKey: Guid(a8c59951099e9354cb33118b9183713a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/CameraFOVChecker.cs using Guid(a8c59951099e9354cb33118b9183713a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28a5aaee3ec7a3d2434e9a03ff29fc1c') in 0.007422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Utilities/FastSimplexNoise.cs
+  artifactKey: Guid(90c662357be54bb9a5c4ce9047ba073b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/FastSimplexNoise.cs using Guid(90c662357be54bb9a5c4ce9047ba073b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18a59c2c2de044454722ec69ef83ea7d') in 0.006854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Services/BaseService.cs
+  artifactKey: Guid(315094ff755f4ec6889aa3c0eddc7760) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Services/BaseService.cs using Guid(315094ff755f4ec6889aa3c0eddc7760) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d8debcc15536dcd575061c70da2dec4') in 0.007416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Providers/OpenVR/ViveKnucklesController.cs
+  artifactKey: Guid(22e8919707854f0885f0a19905ed9566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/OpenVR/ViveKnucklesController.cs using Guid(22e8919707854f0885f0a19905ed9566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd937ded2412da238fcf76c594388a38c') in 0.008472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/Providers/XRSDK/GenericXRSDKSpatialMeshObserver.cs
+  artifactKey: Guid(8edbf87cdd3a0874ea7e95a0a67255f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Providers/XRSDK/GenericXRSDKSpatialMeshObserver.cs using Guid(8edbf87cdd3a0874ea7e95a0a67255f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71299dc8c7f54102d2481df556068d23') in 0.013008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MRTK/Core/Utilities/XRSettingsUtilities.cs
+  artifactKey: Guid(c4c8a7a8194eb364080110ca7d9f137d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Utilities/XRSettingsUtilities.cs using Guid(c4c8a7a8194eb364080110ca7d9f137d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5aef0dd0587a0852974cf69e5506e28a') in 0.027728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Inspectors/MixedRealityToolkitHelpLinks.cs
+  artifactKey: Guid(b8ba0ad648d35da43bd56771a74f6cd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/MixedRealityToolkitHelpLinks.cs using Guid(b8ba0ad648d35da43bd56771a74f6cd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e159d2f3cd24ef6ce6207c1f6116c3c') in 0.016696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.085762 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityDiagnosticsProfile.asset
+  artifactKey: Guid(478436bd1083882479a52d067e98e537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityDiagnosticsProfile.asset using Guid(478436bd1083882479a52d067e98e537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c64ef2578ce64ba9dd2aae5e0e708cbc') in 0.012244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/Text3DSelawikBold.mat
+  artifactKey: Guid(114fd1489fbd406ab097068cd1fa8842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/Text3DSelawikBold.mat using Guid(114fd1489fbd406ab097068cd1fa8842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87e0c174f12305640cf1a342863fff19') in 0.021633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Services/InputSystem/NearInteractionGrabbable.cs
+  artifactKey: Guid(5afd5316c63705643b3daba5a6e923bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/InputSystem/NearInteractionGrabbable.cs using Guid(5afd5316c63705643b3daba5a6e923bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94f5b27bff2cb4379c50ef0e97f6c0d5') in 0.007276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSimulationProfile.asset
+  artifactKey: Guid(41478039094d47641bf4e09c20e61a5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSimulationProfile.asset using Guid(41478039094d47641bf4e09c20e61a5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c8d6413c8ceaa7d4eb40ca53a09cb85') in 0.032934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Services/SpatialAwarenessSystem/MRTK.SpatialAwarenessSystem.asmdef
+  artifactKey: Guid(63f0a3b76da44df4eb06704454845950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/SpatialAwarenessSystem/MRTK.SpatialAwarenessSystem.asmdef using Guid(63f0a3b76da44df4eb06704454845950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b77ac0c1495fd1d50eda377cf5004bad') in 0.020730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK/StandardAssets/Fonts/selawksl.ttf
+  artifactKey: Guid(0fd94703e1ea496bb9999216ac3ece0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Fonts/selawksl.ttf using Guid(0fd94703e1ea496bb9999216ac3ece0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb1ca372d3ba4d262f0aaf74ef8ae308') in 0.031642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Gray.mat
+  artifactKey: Guid(835cb4a58f172d7478801db95e510f56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Gray.mat using Guid(835cb4a58f172d7478801db95e510f56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '948caa0a65c2fd584b8cd933b2d3fa21') in 0.039456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/MRTK/Services/SceneSystem/AssemblyInfo.cs
+  artifactKey: Guid(2b4f4090b767f134e86150b0091b1af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/SceneSystem/AssemblyInfo.cs using Guid(2b4f4090b767f134e86150b0091b1af0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0847423f49a0c1d710c62fc3819f4c2f') in 0.006013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/Services/SceneSystem/ResolveDuplicateScenesWindow.cs
+  artifactKey: Guid(61da811b6324f4241a1de19ee9ff2257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/SceneSystem/ResolveDuplicateScenesWindow.cs using Guid(61da811b6324f4241a1de19ee9ff2257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4edb92c5a79e26b3f300f46354693bf') in 0.007751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Scale_Stop.wav
+  artifactKey: Guid(23a78d131feb8774ebe5dd1ea221933e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Scale_Stop.wav using Guid(23a78d131feb8774ebe5dd1ea221933e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b3d22a2850cc3ea2de3bc52d82a0b41') in 0.033330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/StandardAssets/Fonts/selawksb.ttf
+  artifactKey: Guid(e869342c56e54acf989b2422b4b80dcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Fonts/selawksb.ttf using Guid(e869342c56e54acf989b2422b4b80dcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '086160dd42b46b0fa42600e1307783f7') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentPink.mat
+  artifactKey: Guid(0e3f68a0b25245e4d9a3e2380c8ac1d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentPink.mat using Guid(0e3f68a0b25245e4d9a3e2380c8ac1d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fb90d64c9c034631ae937a0260ac96c') in 0.009253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Services/SceneSystem/MRTK.SceneSystem.asmdef
+  artifactKey: Guid(f72be350965fec445b124b4bf4284f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/SceneSystem/MRTK.SceneSystem.asmdef using Guid(f72be350965fec445b124b4bf4284f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d979491a97c390fd9499008bb52b6dd') in 0.006366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Services/InputSystem/DefaultRaycastProvider.cs
+  artifactKey: Guid(12f680f1471402a40b6ed0c7d4eeecee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/InputSystem/DefaultRaycastProvider.cs using Guid(12f680f1471402a40b6ed0c7d4eeecee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9576eaf65e5cc59105b2c306b80ad7e3') in 0.006839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSystemProfile.asset
+  artifactKey: Guid(ad2080e8e71c35f4e8bcde94fa68f098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputSystemProfile.asset using Guid(ad2080e8e71c35f4e8bcde94fa68f098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caf48bb448eedfff9fe87e117d5c8738') in 0.054800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Blue.mat
+  artifactKey: Guid(3c55769e893c4f4c8c51b7fa69bee2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Blue.mat using Guid(3c55769e893c4f4c8c51b7fa69bee2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63e0cb07b2fafa13eb19cd841b37a034') in 0.023697 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.5 MB). Loaded Objects now: 6399.
+Memory consumption went from 104.3 MB to 102.9 MB.
+Total: 4.711400 ms (FindLiveObjects: 0.378400 ms CreateObjectMapping: 0.339400 ms MarkObjects: 3.297900 ms  DeleteObjects: 0.691500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1.094979 seconds.
+  path: Assets/MRTK/StandardAssets/Shaders/InstancedColored.shader
+  artifactKey: Guid(d199a2ca60343bb49ad9a41ddb45a083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Shaders/InstancedColored.shader using Guid(d199a2ca60343bb49ad9a41ddb45a083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db28ba37424aea3fe10468ba56674453') in 0.013837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/Core/Definitions/BoundarySystem/MixedRealityBoundaryVisualizationProfile.cs
+  artifactKey: Guid(9fd6338e77774badb73a2b1320b41caf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/BoundarySystem/MixedRealityBoundaryVisualizationProfile.cs using Guid(9fd6338e77774badb73a2b1320b41caf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '218761fe11a66ae1ca8ff2b6cdb61ba0') in 0.011333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/IridescentSpectrumRainbow.png
+  artifactKey: Guid(98e3b4b60df348344985cb363d5778fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/IridescentSpectrumRainbow.png using Guid(98e3b4b60df348344985cb363d5778fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d7a2a4bf7d6660dd2c8989b8934e0af') in 0.030441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/Generic_controller_black_scaled.png
+  artifactKey: Guid(01b6830a93a36904ab139325358f2d35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/Generic_controller_black_scaled.png using Guid(01b6830a93a36904ab139325358f2d35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31ebdc48a399968759ebbd1ad65a34cc') in 0.014927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Definitions/CameraSystem/CameraDisplayType.cs
+  artifactKey: Guid(eef635c67fbf2084bb6f1106e99ae1b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/CameraSystem/CameraDisplayType.cs using Guid(eef635c67fbf2084bb6f1106e99ae1b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe2962d6e08c8fe91eba5718ec729a6a') in 0.011233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/DefaultPointerDottedLine.png
+  artifactKey: Guid(8e35f9234c1f48f44b660f8bae903a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/DefaultPointerDottedLine.png using Guid(8e35f9234c1f48f44b660f8bae903a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48765084511b83bf969ee5431805e1cd') in 0.012397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/MRTK_Logo_White.png
+  artifactKey: Guid(84643a20fa6b4fa7969ef84ad2e40992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/MRTK_Logo_White.png using Guid(84643a20fa6b4fa7969ef84ad2e40992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68ada25ee73b863faf4bbbed5de336f3') in 0.015796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/MotionController_left_black.png
+  artifactKey: Guid(a7d0f692b982a754b8ae2353d5e88d64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/MotionController_left_black.png using Guid(a7d0f692b982a754b8ae2353d5e88d64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebe38d4bca0b84aeecc422508810def2') in 0.022860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Definitions/CameraSystem/BaseCameraSettingsProfile.cs
+  artifactKey: Guid(5d76cd22dd005ac438d4c183c7b85a54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/CameraSystem/BaseCameraSettingsProfile.cs using Guid(5d76cd22dd005ac438d4c183c7b85a54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd090f941f1398f14276145fbd21869aa') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/OculusControllersTouch_right_white.png
+  artifactKey: Guid(28ea40d50737d3c47af018f7f3ea24ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/OculusControllersTouch_right_white.png using Guid(28ea40d50737d3c47af018f7f3ea24ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bd5109257a60ac6f91bdb832cae8943') in 0.023185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/Textures/OculusControllersTouch_right_white_scaled.png
+  artifactKey: Guid(2f3bf31bda2bd84439e477aac79990ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Textures/OculusControllersTouch_right_white_scaled.png using Guid(2f3bf31bda2bd84439e477aac79990ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c8469eee781f960bb6c05e37f9db80d') in 0.096526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.473653 seconds.
+  path: Assets/MRTK/Core/Definitions/Devices/GenericOpenVRControllerDefinition.cs
+  artifactKey: Guid(8a95ef72794d5af4083cbc7616bb2c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Devices/GenericOpenVRControllerDefinition.cs using Guid(8a95ef72794d5af4083cbc7616bb2c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ab0a96c5e21d140aac0568a23224379') in 0.011182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/Devices/SDKType.cs
+  artifactKey: Guid(958811dd1ef749ffa71f909abe458eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Devices/SDKType.cs using Guid(958811dd1ef749ffa71f909abe458eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0416026c89b54de686fde79a137d705d') in 0.014214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/InputSystem/InputActionRuleVectorAxis.cs
+  artifactKey: Guid(4fbc1b935f564f83aac269fb6c600920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/InputSystem/InputActionRuleVectorAxis.cs using Guid(4fbc1b935f564f83aac269fb6c600920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ad7c74fc6ff1bcccd77cde50e0b8345') in 0.008159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/Devices/MouseControllerDefinition.cs
+  artifactKey: Guid(1b8150a673821864e9c89cc56e6b6a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Devices/MouseControllerDefinition.cs using Guid(1b8150a673821864e9c89cc56e6b6a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb5c5d6c62899a1822e1154b038a8694') in 0.009532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Definitions/Devices/InputSourceType.cs
+  artifactKey: Guid(ffd06547248f42243a0549fa6f484b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Devices/InputSourceType.cs using Guid(ffd06547248f42243a0549fa6f484b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e46522a91ea5dd5d48d93889883b16d2') in 0.009551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Definitions/Lines/InterpolationMode.cs
+  artifactKey: Guid(cf8e569c382e4377a831fd0f095830c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Lines/InterpolationMode.cs using Guid(cf8e569c382e4377a831fd0f095830c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbb4d86abc6c0ecf836a7b41cf673bdd') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Definitions/InputSystem/InputActionRuleDualAxis.cs
+  artifactKey: Guid(257fe64c9bf54235b76d1505266122b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/InputSystem/InputActionRuleDualAxis.cs using Guid(257fe64c9bf54235b76d1505266122b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96353a479453653a440a647d61389c25') in 0.007435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Definitions/Devices/MixedRealityHandTrackingProfile.cs
+  artifactKey: Guid(8275efdbe76bdff49a97a8e82fba118d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Devices/MixedRealityHandTrackingProfile.cs using Guid(8275efdbe76bdff49a97a8e82fba118d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '527ae6b954e435ef5ef5f4c2b3e86fa2') in 0.007043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/InputSystem/KeywordAndResponse.cs
+  artifactKey: Guid(25ecffaec23b402193f8b6c3fcc37721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/InputSystem/KeywordAndResponse.cs using Guid(25ecffaec23b402193f8b6c3fcc37721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a296a82d20045931002c4eccb18b9334') in 0.016416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/Lines/InterpolationType.cs
+  artifactKey: Guid(e5291c0ac0fc496982ec8afeed071587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Lines/InterpolationType.cs using Guid(e5291c0ac0fc496982ec8afeed071587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac80ac2c60b816f987c09e1e42f700c7') in 0.008157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/Core/Definitions/InputSystem/InputActionEventPair.cs
+  artifactKey: Guid(d97d1c3ab07b4ed4bbfc253887cfcf2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/InputSystem/InputActionEventPair.cs using Guid(d97d1c3ab07b4ed4bbfc253887cfcf2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4396660946183089816b855feaedb41c') in 0.006878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Definitions/Devices/WindowsMixedRealityControllerDefinition.cs
+  artifactKey: Guid(2ecca80a54b0b59498e6c17e93b7719f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Devices/WindowsMixedRealityControllerDefinition.cs using Guid(2ecca80a54b0b59498e6c17e93b7719f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ad5da56fb34d637954b7bbd1aa1d3cd') in 0.008697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.553723 seconds.
+  path: Assets/MRTK/Core/Definitions/Lines/StepMode.cs
+  artifactKey: Guid(c25f5594e515484d9eb9eb91cc7434e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Lines/StepMode.cs using Guid(c25f5594e515484d9eb9eb91cc7434e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df6f174dfcb92015cc48281b1e86c1a5') in 0.012003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/ManipulationProximityFlags.cs
+  artifactKey: Guid(c3cf8def1e3e5484c86b3dc60576feba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/ManipulationProximityFlags.cs using Guid(c3cf8def1e3e5484c86b3dc60576feba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61885eae1c468000d3fa42ed1acd8689') in 0.014431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/SupportedApplicationModes.cs
+  artifactKey: Guid(8a74339227fff1e42aebfa58eaae1f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/SupportedApplicationModes.cs using Guid(8a74339227fff1e42aebfa58eaae1f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c30a44fc88b080b999e4880f2a9bfa0') in 0.019214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/Vector3Smoothed.cs
+  artifactKey: Guid(d0388f3cdf0f6ad42b5d2e84e2d5bd75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/Vector3Smoothed.cs using Guid(d0388f3cdf0f6ad42b5d2e84e2d5bd75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4507d078402a6683233373bb042d23d') in 0.009399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/ProcessResult.cs
+  artifactKey: Guid(de687c792c284b8da7c1fd44165967f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/ProcessResult.cs using Guid(de687c792c284b8da7c1fd44165967f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50c1bc7c8dcfa2ce71cf18c235cbf0f5') in 0.010712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/VolumeType.cs
+  artifactKey: Guid(9627954d6427f6b448a405c9563585eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/VolumeType.cs using Guid(9627954d6427f6b448a405c9563585eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ca790f868effa1a325638765f0426ee') in 0.015929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/AxisType.cs
+  artifactKey: Guid(15ab48ddceae418a8c8d072ee1ea658c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/AxisType.cs using Guid(15ab48ddceae418a8c8d072ee1ea658c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46d8bbb3f1586c74ce7157394e1e07ac') in 0.010161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Definitions/Utilities/AxisFlags.cs
+  artifactKey: Guid(0b4e4a9d78a31d044857f2fdabe5a4fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/Utilities/AxisFlags.cs using Guid(0b4e4a9d78a31d044857f2fdabe5a4fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd324ea46cb78807e6977bf2e6e60f499') in 0.008794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Definitions/SceneSystem/MixedRealitySceneSystemProfile.cs
+  artifactKey: Guid(b81dae1d46879b444aa9847f7961649f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/SceneSystem/MixedRealitySceneSystemProfile.cs using Guid(b81dae1d46879b444aa9847f7961649f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ec9fa234d314f5d5fd3fb97a04cd3a8') in 0.007315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Core/Definitions/SpatialAwareness/SpatialAwarenessPlanarObject.cs
+  artifactKey: Guid(2d9842a78541d2045aad3a8161195c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/SpatialAwareness/SpatialAwarenessPlanarObject.cs using Guid(2d9842a78541d2045aad3a8161195c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3139b4a3b520fe00c5b2dce5f656e4ec') in 0.006774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Definitions/SpatialAwareness/MixedRealitySpatialAwarenessSystemProfile.cs
+  artifactKey: Guid(19f279aded72cb741b4de89a54359dd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Definitions/SpatialAwareness/MixedRealitySpatialAwarenessSystemProfile.cs using Guid(19f279aded72cb741b4de89a54359dd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fed11a3d91c968cc03d8c5e088d7505') in 0.008118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.571176 seconds.
+  path: Assets/MRTK/Core/EventDatum/Input/HandTrackingInputEventData.cs
+  artifactKey: Guid(bd73f48e372ad0445a17977a0ea1b138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/EventDatum/Input/HandTrackingInputEventData.cs using Guid(bd73f48e372ad0445a17977a0ea1b138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa5257c428116c06574eca251d87841') in 0.020246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Core/Inspectors/Profiles/MixedRealityBoundaryVisualizationProfileInspector.cs
+  artifactKey: Guid(d44f14e15b3447f4846c13ca5c82129c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Profiles/MixedRealityBoundaryVisualizationProfileInspector.cs using Guid(d44f14e15b3447f4846c13ca5c82129c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '616091a9b8c62bc5f1a90b36d3c77f42') in 0.072268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/Core/Inspectors/PropertyDrawers/MixedRealityPosePropertyDrawer.cs
+  artifactKey: Guid(af801b933f5e405f834b32ec02d1072f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/PropertyDrawers/MixedRealityPosePropertyDrawer.cs using Guid(af801b933f5e405f834b32ec02d1072f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '170b993521c241d98d4ef33c985cdaa9') in 0.011345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Inspectors/Profiles/MixedRealitySpatialAwarenessSystemProfileInspector.cs
+  artifactKey: Guid(129f491d2df55a64e8731f81942cad21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Profiles/MixedRealitySpatialAwarenessSystemProfileInspector.cs using Guid(129f491d2df55a64e8731f81942cad21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90e6dbb2cec171eb6b9853a1806c90a2') in 0.017946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Core/Inspectors/Profiles/MixedRealityGesturesProfileInspector.cs
+  artifactKey: Guid(82cccce472e145f4bcdf7338afc66e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Profiles/MixedRealityGesturesProfileInspector.cs using Guid(82cccce472e145f4bcdf7338afc66e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03e5c738bfb7c84fba6c02e2d733d69b') in 0.009245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Inspectors/Profiles/BaseMixedRealityToolkitConfigurationProfileInspector.cs
+  artifactKey: Guid(19c8b3dc140744b1bb892aaf02032169) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Profiles/BaseMixedRealityToolkitConfigurationProfileInspector.cs using Guid(19c8b3dc140744b1bb892aaf02032169) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aeecc9a76d1f2f1da1d75d218058e4a8') in 0.011049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MRTK/Core/Inspectors/PropertyDrawers/PrefabPropertyDrawer.cs
+  artifactKey: Guid(e2e007466b9648b7832d227bcbd46ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/PropertyDrawers/PrefabPropertyDrawer.cs using Guid(e2e007466b9648b7832d227bcbd46ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53fcde0d7ea41dee1b13e4c3fe483933') in 0.008051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Inspectors/PropertyDrawers/TagPropertyDrawer.cs
+  artifactKey: Guid(1a02aaf60dc13f3459017ed924317006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/PropertyDrawers/TagPropertyDrawer.cs using Guid(1a02aaf60dc13f3459017ed924317006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa93c7e5e95691561410ef2cf30fcdd0') in 0.007944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Inspectors/PropertyDrawers/SelectRepairedTypeWindow.cs
+  artifactKey: Guid(1816cf73665b5c648a1545d130811675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/PropertyDrawers/SelectRepairedTypeWindow.cs using Guid(1816cf73665b5c648a1545d130811675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12160401c1c3827ffe1fe622f29356e3') in 0.012328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoDrawer.cs
+  artifactKey: Guid(5af96cda3342f594c949c66db36333d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoDrawer.cs using Guid(5af96cda3342f594c949c66db36333d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8e70c30c03e3340bb08d1474e459ca9') in 0.008360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/Core/EventDatum/Input/SourceStateEventData.cs
+  artifactKey: Guid(4e5c13da632146c3b92a6ba911e77ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/EventDatum/Input/SourceStateEventData.cs using Guid(4e5c13da632146c3b92a6ba911e77ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1044a1527182aed644de4c56dde5ddb') in 0.021453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Inspectors/PropertyDrawers/InputActionPropertyDrawer.cs
+  artifactKey: Guid(4d6d0005923b40fd8be3dc72fbc920cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/PropertyDrawers/InputActionPropertyDrawer.cs using Guid(4d6d0005923b40fd8be3dc72fbc920cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b5b7a102114a1e0fd53260b8d6a0353') in 0.010677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.335287 seconds.
+  path: Assets/MRTK/Core/Inspectors/ServiceInspectors/MRTK.ServiceInspectors.asmdef
+  artifactKey: Guid(8213dc10c274b714cb89afec31623845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/ServiceInspectors/MRTK.ServiceInspectors.asmdef using Guid(8213dc10c274b714cb89afec31623845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7261f4b08f76aba416a05dc7f9034248') in 0.013671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Interfaces/Devices/IMixedRealityControllerPoseSynchronizer.cs
+  artifactKey: Guid(486b6623913f0da47ac5e217c667f63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/Devices/IMixedRealityControllerPoseSynchronizer.cs using Guid(486b6623913f0da47ac5e217c667f63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2347a43194eea0d89a83cb9e936718c1') in 0.006617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Inspectors/ServiceInspectors/TeleportSystemInspector.cs
+  artifactKey: Guid(8f34a2ab5ac91c448a0d02a4b0992f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/ServiceInspectors/TeleportSystemInspector.cs using Guid(8f34a2ab5ac91c448a0d02a4b0992f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a105e843dc96549bca5985593706322') in 0.011235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Core/Interfaces/EventSystem/IMixedRealityEventSystem.cs
+  artifactKey: Guid(286e431bafbe42cf84715c6ac7aa6789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/EventSystem/IMixedRealityEventSystem.cs using Guid(286e431bafbe42cf84715c6ac7aa6789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c798c1077056c7bc050c3346fae99644') in 0.007858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Interfaces/InputSystem/IMixedRealityGazeProviderHeadOverride.cs
+  artifactKey: Guid(385a6d80d6bdb3f4a99b05f40bce6544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/InputSystem/IMixedRealityGazeProviderHeadOverride.cs using Guid(385a6d80d6bdb3f4a99b05f40bce6544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58cfaedbc12f6270020714040f0e08b7') in 0.016619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/Core/Inspectors/Setup/MixedRealityEditorSettings.cs
+  artifactKey: Guid(8dd4614f1e3a4075bbd4f4d8c3d96f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Setup/MixedRealityEditorSettings.cs using Guid(8dd4614f1e3a4075bbd4f4d8c3d96f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a053f8789f83a498df77478e48f6dad0') in 0.010772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Inspectors/Utilities/Text3DShaderGUI.cs
+  artifactKey: Guid(a439923e28966fe4db05edd83ab80656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Utilities/Text3DShaderGUI.cs using Guid(a439923e28966fe4db05edd83ab80656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d5ca3fdc552b6fe2c716603ab1677e8') in 0.008681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Inspectors/Utilities/MixedRealityProfileUtility.cs
+  artifactKey: Guid(36d6219eaecc7f54a9177df046abf5b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Inspectors/Utilities/MixedRealityProfileUtility.cs using Guid(36d6219eaecc7f54a9177df046abf5b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd397da751ae7729e9d2b7a38921a7a23') in 0.015203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Interfaces/Devices/IMixedRealityDictationSystem.cs
+  artifactKey: Guid(c8554f03db9b33740ab820dd4fd37ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/Devices/IMixedRealityDictationSystem.cs using Guid(c8554f03db9b33740ab820dd4fd37ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e7fcdc06eab533c7fdb3e9f6432b62e') in 0.006920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Core/Interfaces/Devices/IMixedRealityController.cs
+  artifactKey: Guid(9fd9ec48a63249f0b202c49d33fa3db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/Devices/IMixedRealityController.cs using Guid(9fd9ec48a63249f0b202c49d33fa3db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '622d0c1cef39b40795e5038b497922aa') in 0.010528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Core/Interfaces/InputSystem/IMixedRealityEyeGazeDataProvider.cs
+  artifactKey: Guid(77a72946dababd840806f46d1679e85b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/InputSystem/IMixedRealityEyeGazeDataProvider.cs using Guid(77a72946dababd840806f46d1679e85b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '292bc434a7f0bd3f59def832524cbbae') in 0.005449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.378981 seconds.
+  path: Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputRecordingProfile.asset
+  artifactKey: Guid(d0f5a7f6d1f9f0b4cb6eb35c797a0f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/DefaultMixedRealityInputRecordingProfile.asset using Guid(d0f5a7f6d1f9f0b4cb6eb35c797a0f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4778ac949ed1b19d7d64655e2996943') in 0.019247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Providers/ObjectMeshObserver/MRTK.ObjectMeshObserver.asmdef
+  artifactKey: Guid(13ac6bcd081d93e4ab5fbdf0f69054d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/ObjectMeshObserver/MRTK.ObjectMeshObserver.asmdef using Guid(13ac6bcd081d93e4ab5fbdf0f69054d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87e65c6fd1afc365e9a7f550b9c917bd') in 0.007867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MRTK/Core/Providers/InputSimulation/InputSimulationEnum.cs
+  artifactKey: Guid(e18ea6f8f5f471a4a80af1af25700d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/InputSimulation/InputSimulationEnum.cs using Guid(e18ea6f8f5f471a4a80af1af25700d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '567eadc333a19f781d28660263436ca3') in 0.015402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Providers/ObjectMeshObserver/AssemblyInfo.cs
+  artifactKey: Guid(0f19fafbe1b52f74391849dcf59cfaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/ObjectMeshObserver/AssemblyInfo.cs using Guid(0f19fafbe1b52f74391849dcf59cfaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfc504fa053e4d2177a16dd27d54b73a') in 0.007041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Providers/InputSimulation/SimulatedMotionControllerButtonState.cs
+  artifactKey: Guid(235c4d6d03d7f524bbd22a07a957619c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/InputSimulation/SimulatedMotionControllerButtonState.cs using Guid(235c4d6d03d7f524bbd22a07a957619c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e089794c77e8a421b0687cc669bfdf7') in 0.010752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Rotate_Start.wav
+  artifactKey: Guid(765efbcf7ca1773488edcc8ab6ba4923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Rotate_Start.wav using Guid(765efbcf7ca1773488edcc8ab6ba4923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '456c8a60b1b85dd8f3f7ebd2966f05da') in 0.026571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_GlowingOrange.mat
+  artifactKey: Guid(a50237e3265fe9149a16e889fd8d8b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_GlowingOrange.mat using Guid(a50237e3265fe9149a16e889fd8d8b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1b366ce0e9cf9d31ab7824c714f84c0') in 0.010286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Gem.wav
+  artifactKey: Guid(2193e9060a088b24f97f48d1e1a4a862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Gem.wav using Guid(2193e9060a088b24f97f48d1e1a4a862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '195b78db2026ce48174aa1cd9b5a8e1c') in 0.054846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/StandardAssets/Icons/test_icon.png
+  artifactKey: Guid(731058d908be67544b92b0341f29d906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Icons/test_icon.png using Guid(731058d908be67544b92b0341f29d906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac0f06fe23a6cb7b65b639aeeae96b78') in 0.011034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Providers/Hands/BaseHand.cs
+  artifactKey: Guid(3098b0ad17dc13545a50c2dee5917a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/Hands/BaseHand.cs using Guid(3098b0ad17dc13545a50c2dee5917a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94991b5609f1e8dcb5212bb0e464eb3d') in 0.007303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Services/InputSystem/InputSystemGlobalListener.cs
+  artifactKey: Guid(2d7c0ed14f8e447db0062b3d549e3a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/InputSystem/InputSystemGlobalListener.cs using Guid(2d7c0ed14f8e447db0062b3d549e3a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54977d90127d1ec612bdc6445109adf1') in 0.007173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Interfaces/InputSystem/IMixedRealityTouchPointer.cs
+  artifactKey: Guid(a15198c275e3dd043abdc81fab3eea66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/InputSystem/IMixedRealityTouchPointer.cs using Guid(a15198c275e3dd043abdc81fab3eea66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20be565deeeb279627c61d40732e5054') in 0.006827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentCyan.mat
+  artifactKey: Guid(c6bd404f506e1894289fde7b1689f901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentCyan.mat using Guid(c6bd404f506e1894289fde7b1689f901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64c740db8ad21ba29c3fa64ed167c4f8') in 0.012429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Move_Start.wav
+  artifactKey: Guid(72d90092d0f1a734eb1cfcf71b8fa2e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Move_Start.wav using Guid(72d90092d0f1a734eb1cfcf71b8fa2e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b74822e39ad97e92db0ebc5cfdda091f') in 0.030193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Core/Interfaces/Services/IMixedRealityDataProviderAccess.cs
+  artifactKey: Guid(5068df6c8c17b814ca8af2e2b852c5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Interfaces/Services/IMixedRealityDataProviderAccess.cs using Guid(5068df6c8c17b814ca8af2e2b852c5c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abbbb81110bb9d2b545e4119a9cc55a5') in 0.007841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/Icons/ux_icon.png
+  artifactKey: Guid(3b748943b2ee497cb401b923729b41c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Icons/ux_icon.png using Guid(3b748943b2ee497cb401b923729b41c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36793f2e7f3594299d77b764ba79c0f6') in 0.011037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Services/InputSystem/MixedRealityInputModule.cs
+  artifactKey: Guid(7a21b486d0bb44444b1418aaa38b44de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/InputSystem/MixedRealityInputModule.cs using Guid(7a21b486d0bb44444b1418aaa38b44de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f277a9f571fafc41cc048c3e69a63cc7') in 0.006682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Slider_Grab.wav
+  artifactKey: Guid(6c0efce9e4f4243449555af66e975f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Slider_Grab.wav using Guid(6c0efce9e4f4243449555af66e975f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad3b5f4310567af8de81067ee81b3e1f') in 0.021945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Magenta.mat
+  artifactKey: Guid(71d573ea4cb045cdadc98e56044f6d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Magenta.mat using Guid(71d573ea4cb045cdadc98e56044f6d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44571f7f1d7f141642eebcaf4e66e4ea') in 0.009364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Core/Providers/InputSimulation/ManualCameraControl.cs
+  artifactKey: Guid(9fa8cbe9ae0e4fa41ac858966a8ed215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Core/Providers/InputSimulation/ManualCameraControl.cs using Guid(9fa8cbe9ae0e4fa41ac858966a8ed215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bf8870a23e382ecb384754a9228831f') in 0.006886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Scale_Start.wav
+  artifactKey: Guid(bdc1f15a0c976854780adcd7e56cfb3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Scale_Start.wav using Guid(bdc1f15a0c976854780adcd7e56cfb3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c559ba19846ea239bb45ef496ea1c13d') in 0.030457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/SDK/Profiles/ObsoleteMixedRealityXRSDKControllerVisualizationProfile.asset
+  artifactKey: Guid(d9ee3d709133f504a8d76410d0135d17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/SDK/Profiles/ObsoleteMixedRealityXRSDKControllerVisualizationProfile.asset using Guid(d9ee3d709133f504a8d76410d0135d17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b643a340164f148e007e1446a416fd0a') in 0.010652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Services/InputSystem/GazeProvider.cs
+  artifactKey: Guid(bf98dd1206224111a38765365e98e207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/InputSystem/GazeProvider.cs using Guid(bf98dd1206224111a38765365e98e207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75b0cc0b9cdb5e95e50bb0bf22737003') in 0.007278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Services/InputSystem/GazeConePointer.cs
+  artifactKey: Guid(330d8ae500807044880a751b83ccd919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/Services/InputSystem/GazeConePointer.cs using Guid(330d8ae500807044880a751b83ccd919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd488ce36fc45053c3793ee6bd5147681') in 0.008243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/StandardAssets/Audio/MRTK_Manipulation_End.wav
+  artifactKey: Guid(bcae4cbce6135d84b9b04ee9e5b909f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Audio/MRTK_Manipulation_End.wav using Guid(bcae4cbce6135d84b9b04ee9e5b909f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bca0287ce789fdf10f84ff2885cfb97b') in 0.022125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Pink.mat
+  artifactKey: Guid(67e4ae112f094f3082e033060c3cd298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Pink.mat using Guid(67e4ae112f094f3082e033060c3cd298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c1dccaa4349f8ae61c5984179329334') in 0.015196 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (762ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.5 MB). Loaded Objects now: 6479.
+Memory consumption went from 223.5 MB to 222.1 MB.
+Total: 4.295000 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.389100 ms MarkObjects: 2.809800 ms  DeleteObjects: 0.691600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001818 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6037 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.5 MB). Loaded Objects now: 6617.
+Memory consumption went from 228.1 MB to 226.6 MB.
+Total: 2.968100 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.194600 ms MarkObjects: 2.013700 ms  DeleteObjects: 0.461500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (2.1 MB). Loaded Objects now: 6621.
+Memory consumption went from 230.2 MB to 228.1 MB.
+Total: 4.277400 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.201000 ms MarkObjects: 2.991600 ms  DeleteObjects: 0.774400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.339627 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealityGesturesProfile.asset
+  artifactKey: Guid(9c798b69bfd8a4e458ad6f335c789393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealityGesturesProfile.asset using Guid(9c798b69bfd8a4e458ad6f335c789393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf0fb0d4c7975ef401115803bb87884') in 0.022754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealityInputSystemProfile.asset
+  artifactKey: Guid(81c9c62668cf84a4692c2ece9adf94de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealityInputSystemProfile.asset using Guid(81c9c62668cf84a4692c2ece9adf94de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9ed6e78b14cc45a7f83f288800e782') in 0.082103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealityInputSimulationProfile.asset
+  artifactKey: Guid(dbb7d9502608042489e0a90bd8c6e73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealityInputSimulationProfile.asset using Guid(dbb7d9502608042489e0a90bd8c6e73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920575486ed7480788df3b9de56e3a38') in 0.007134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealitySpeechCommandsProfile.asset
+  artifactKey: Guid(2ffbc6ad24d25a0449cc2959a521db60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputActions/InputActions.MixedRealitySpeechCommandsProfile.asset using Guid(2ffbc6ad24d25a0449cc2959a521db60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd971b9e4251fe197185f19218e1c2438') in 0.003524 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001950 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Paddy Machine Demo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (2.1 MB). Loaded Objects now: 6625.
+Memory consumption went from 230.2 MB to 228.1 MB.
+Total: 4.171200 ms (FindLiveObjects: 0.760900 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.274400 ms  DeleteObjects: 0.959700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
